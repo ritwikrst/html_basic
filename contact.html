@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <p>
+        <em>
+        <h1>MY Contact Details</h1>
+        <br />
+
+        <strong>Mobile</strong>: 9883088911 <br /><strong>Email</strong>:
+        ritwikrst@gmail.com <br /><strong>address</strong>: 49/1/j A.C. BANERJEE
+        ROAD, ARIAFAHA ,KOLKATA-700057
+      </em>
+    </p>
+
+    <form action="mailto:ritwikrst@gmail.com" method="POST" enctype="text/plain">
+        <table>
+            <tr>
+                <td>
+                    <label for="name">
+              your name
+            </label>
+                    <input type="text" name="name" value="" required minlength="1" maxlength="32" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Email">Your Email </label>
+                    <input type="email" name="Your email" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Your PASSWORD:</label>
+                    <input type="password" name="pass" />
+                </td>
+            </tr>
+        </table>
+
+        <br />
+
+        <br />
+        <label for="message">Your Message</label>
+        <br />
+        <textarea name="Message" id="none" cols="30" rows="10"></textarea>
+        <br />
+        <input type="date" />
+        <br />
+        <label>Do You want to submit </label>
+        <input type="checkbox" required />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>
